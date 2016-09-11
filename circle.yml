@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    - sudo apt-get install python-dev && sudo pip install docker-compose
+    - sudo apt-get install python-dev && sudo pip install --upgrade docker-compose
 
 test:
   override:
